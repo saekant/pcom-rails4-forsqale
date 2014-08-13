@@ -1,0 +1,24 @@
+1,1,Arabidopsis_thylakaid 1,60
+2,1,Arabidopsis_thylakaid 2,80
+3,1,Arabidopsis_chloroplast_1 ,60
+4,1,Arabidopsis_chloroplast_2,60
+5,1,Arabidopsis_stroma,60
+6,1,Arabidopsis_leaf(0DAD),53
+7,1,Arabidopsis_senescent leaf (8DAD),53
+8,1,Arabidopsis_senescent leaf (detached),43
+9,2,Synechosystis sp. whole cells 2,60
+10,1,Arabidopsis_envelope,68
+11,1,Arabidopsis_chloroplast_3,68
+12,1,Arabidopsis_chloroplast_4,68
+13,3,Chlamydomonas whole cells,68
+14,4,Prochlorococcus_CCMP1375,48
+15,5,Prochlorococcus_CCMP1986,48
+16,6,Prochlorococcus_CCMP2773,48
+17,7,Physcomitrella patens whole cells,68
+18,1,Arabidopsis_mitochondria,68
+19,2,Synechosystis sp. whole cells 1,80
+20,8,Micromonas pusilla CCMP1545  whole cells,68
+21,1,Arabidopsis_AP1,60
+22,2,Synechosystis sp.plasma membranes,60
+23,9,Phaeodactylum tricornutum  whole cells,68
+24,10,Methanothermobacter marburgensis whole cells,60

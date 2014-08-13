@@ -1,0 +1,51 @@
+<div class="posttext">
+<h3 class="t3">What is PCoM?</h3>
+<p>Protein Co-Migration Database for photosynthetic organisms (PCoM) is a powerful tool for predicting the protein complexes in photosynthetic organisms containing your protein of interest. PCoM stores the data obtained by LC-MS/MS analysis of the protein complexes which were separated by BN-PAGE and extracted from BN-PAGE gel slices.</p>
+<br>
+<p>For further information, take a look at <%=link_to("the overview page",{ :controller => "proteins",:action => "overview" }) %>.</p>
+<br>
+<h3 class="t3">Which proteins can be searched ?</h3>
+<p>At present, PCoM stores the following data for the protein complexes.</p>
+	<table class="materials_table">
+			<tr>
+					<th >Organism</th>
+					<th >SampleNames</th>
+					<th >Detecting Proteins</th>
+					<th >Publication</th>
+			</tr>
+			<tr>
+				<td class="organism" rowspan="3" ><i>Arabidopsis thaliana</i></td>
+				<td class="material"><%=link_to("chloroplast",{ :controller => "proteins",:action => "list_protein",:material_id => "3"}) %></td>
+				<td class="detecting" >804proteins</td>
+				<td class="publication" >submitted</td>
+			</tr>
+					<tr>
+				<td class="material"><%=link_to("stroma",{ :controller => "proteins",:action => "list_protein",:material_id => "5"}) %></td>
+				<td class="detecting" >452proteins</td>
+				<td class="publication" >submitted</td>
+			</tr>
+			<tr>
+				<td class="material"><%=link_to("thylakoid ",{ :controller => "proteins",:action => "list_protein",:material_id => "1"}) %></td>
+				<td class="detecting" >244proteins</td>
+				<td class="publication" ><a href ="http://www.springerplus.com/content/2/1/148" target="_blank">Takabayashi et al. (2013)</a></td>
+			</tr>
+			<tr>
+				<td class="organism" ><i>Physcomitrella patens</i></td>
+				<td class="material"><%=link_to("whole cells",{ :controller => "proteins",:action => "list_protein",:material_id => "17"}) %></td>
+				<td class="detecting" >1,663proteins<br>(detection:4.32％)</td>
+				<td class="publication" >submitted</td>
+			</tr>
+			<tr>
+				<td class="organism" ><i>Synechosystis</i> sp. PCC6803</td>
+				<td class="material"><%=link_to("whole cells",{ :controller => "proteins",:action => "list_protein",:material_id => "9"}) %></td>
+				<td class="detecting" >1,458proteins<br>(detection:39.14％)</td>
+				<td class="publication" ><a href ="http://www.springerplus.com/content/2/1/148" target="_blank">Takabayashi et al. (2013)</a></td>
+			</tr>
+	</table>
+<br>
+<h3 class="t3">Contact us</h3>
+<p><a href="mailto:Takabayashi@pop.lowtem.hokudai.ac.jp"><%= image_tag "16.png",:width => '20',:style => 'margin-top:10px;margin-right:10px;' %>Takabayashi@pop.lowtem.hokudai.ac.jp</a></p>
+<br>
+
+</div>
+
